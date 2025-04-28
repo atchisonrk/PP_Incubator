@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurePeck Incubator Controller</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Refresh meta tag - fallback if JS fails -->
+    <meta http-equiv="refresh" content="60">
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1 class="dashboard-title">PurePeck Incubator Controller</h1>
+                </div>
+                <div class="col-md-4 text-end">
+                    <div class="user-controls">
+                        <a href="{{ url_for('analytics') }}" class="btn btn-secondary" style="margin-right: 10px;">Analytics</a>
+                        <a href="{{ url_for('logout') }}" class="btn btn-primary">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Alerts container -->
+        <div id="alerts-container"></div>
+        
+        <div class="dashboard-content">
+            <!-- Temperature and Humidity Readings -->
+            <div class="card readings-card">
+                <h2 class="card-title">Current Readings</h2>
+                
+                <div class="reading-item">
+                    <div class="reading-icon temp-icon">
+                        <i class="fas fa-thermometer-half"></i>
+                    </div>
+                    <div>
+                        <div>
+                            <span id="temperature-value" class="reading-value">--.-</span>
+                            <span class="reading-unit">°F</span>
+                        </div>
+                        <div class="reading-label">Temperature</div>
+                    </div>
+                </div>
+                
+                <div class="reading-item">
+                    <div class="reading-icon humidity-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div>
+                        <div>
+                            <span id="humidity-value" class="reading-value">--.-</span>
+                            <span class="reading-unit">%</span>
+                        </div>
+                        <div class="reading-label">Humidity</div>
+                    </div>
+                </div>
+                
+                <div class="reading-timestamp">
+                    Last updated: <span id="last-updated">--:--:--</span>
+                </div>
+            </div>
+            
+            <!-- Control Panel -->
+            <div class="card controls-card">
+                <h2 class="card-title">Control Panel</h2>
+                
+                <div class="control-item">
+                    <div class="control-label">
+                        <div class="control-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <span>Heater 1</span>
+                        <span id="heater1-status" class="control-status status-off"></span>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="heater1-toggle" class="control-toggle" data-device="heater1">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                
+                <div class="control-item">
+                    <div class="control-label">
+                        <div class="control-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <span>Heater 2</span>
+                        <span id="heater2-status" class="control-status status-off"></span>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="heater2-toggle" class="control-toggle" data-device="heater2">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                
+                <div class="control-item">
+                    <div class="control-label">
+                        <div class="control-icon">
+                            <i class="fas fa-cloud-rain"></i>
+                        </div>
+                        <span>Humidifier</span>
+                        <span id="humidifier-status" class="control-status status-off"></span>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="humidifier-toggle" class="control-toggle" data-device="humidifier">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                
+                <div class="control-item">
+                    <div class="control-label">
+                        <div class="control-icon">
+                            <i class="fas fa-cloud-rain"></i>
+                        </div>
+                        <span>Humidity Override</span>
+                        <span id="humidity-override-status"></span>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" id="humidity-override-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+
+                <div class="control-mode-toggle">
+                    <div class="control-mode-label">Auto Temp Control:</div>
+                    <label class="switch">
+                        <input type="checkbox" id="auto-temp-control-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                
+                <div class="control-mode-toggle">
+                    <div class="control-mode-label">Auto Humidity Control:</div>
+                    <label class="switch">
+                        <input type="checkbox" id="auto-humidity-control-toggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Temperature and Humidity Settings -->
+            <div class="card settings-card" id="settings-panel">
+                <h2 class="card-title">Target Settings</h2>
+                
+                <div class="setting-item">
+                    <div class="setting-label">Target Temperature (°F)</div>
+                    <div class="setting-control">
+                        <input type="number" id="target-temp" min="95" max="102" step="0.1" value="99.5">
+                        <button class="setting-btn" id="set-temp-btn">Set</button>
+                    </div>
+                </div>
+                
+                <div class="setting-item">
+                    <div class="setting-label">Target Humidity (%)</div>
+                    <div class="setting-control">
+                        <input type="number" id="target-humidity" min="40" max="70" step="1" value="55">
+                        <button class="setting-btn" id="set-humidity-btn">Set</button>
+                    </div>
+                </div>
+                
+                <div class="current-targets">
+                    <div>Current Temperature Target: <span id="current-temp-target">99.5 °F</span></div>
+                    <div>Current Humidity Target: <span id="current-humidity-target">55 %</span></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Emergency Shutdown -->
+        <div class="emergency-container">
+            <button id="emergency-shutdown" class="emergency-btn">
+                <i class="fas fa-exclamation-triangle"></i> EMERGENCY SHUTDOWN
+            </button>
+        </div>
+        
+        <!-- Safe Range Info -->
+        <div class="card" style="margin-top: 20px;">
+            <h2 class="card-title">Safe Operating Ranges</h2>
+            <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+                <div>
+                    <h3><i class="fas fa-thermometer-half"></i> Temperature</h3>
+                    <p>Safe range: 95.0°F - 102.0°F</p>
+                </div>
+                <div>
+                    <h3><i class="fas fa-tint"></i> Humidity</h3>
+                    <p>Safe range: 40% - 70%</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>PurePeck Incubator Controller &copy; 2025</p>
+            <p><small>Raspberry Pi-based control system</small></p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

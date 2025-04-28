@@ -1,0 +1,84 @@
+/* Analytics page specific CSS styles */
+
+.analytics-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.time-range-selector,
+.interval-selector {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.chart-card {
+    margin-bottom: 25px;
+}
+
+.chart-container {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.stats-card {
+    margin: 25px 0;
+}
+
+.stats-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.stat-box {
+    background-color: #2a2d3e;
+    border-radius: 8px;
+    padding: 12px 15px;
+    min-width: 140px;
+    flex: 1;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.9rem;
+    color: #9ba3af;
+    margin-bottom: 5px;
+}
+
+.stat-value {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .analytics-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .time-range-selector,
+    .interval-selector {
+        width: 100%;
+    }
+    
+    .stats-container {
+        flex-direction: column;
+    }
+    
+    .stat-box {
+        width: 100%;
+    }
+}

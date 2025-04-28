@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurePeck Incubator Analytics</title>
+    <link href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style-analytics.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+</head>
+<body>
+    <header class="dashboard-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1 class="dashboard-title">PurePeck Incubator Analytics</h1>
+                </div>
+                <div class="col-md-4 text-end">
+                    <div class="user-controls">
+                        <a href="{{ url_for('dashboard') }}" class="btn btn-secondary" style="margin-right: 10px;">Dashboard</a>
+                        <a href="{{ url_for('logout') }}" class="btn btn-primary">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="error-message" class="alert alert-danger" style="display: none;"></div>
+        
+        <div class="card mb-4">
+            <div class="card-body">
+                <div class="analytics-controls">
+                    <div class="time-range-selector">
+                        <label for="time-range">Time Range:</label>
+                        <select id="time-range" class="form-select">
+                            <option value="1">Last 24 Hours</option>
+                            <option value="3">Last 3 Days</option>
+                            <option value="7">Last 7 Days</option>
+                            <option value="14">Last 14 Days</option>
+                            <option value="21">Last 21 Days</option>
+                        </select>
+                    </div>
+                    
+                    <div class="interval-selector">
+                        <label for="interval">Data Interval:</label>
+                        <select id="interval" class="form-select">
+                            <option value="1">1 Minute</option>
+                            <option value="5">5 Minutes</option>
+                            <option value="10" selected>10 Minutes</option>
+                            <option value="30">30 Minutes</option>
+                            <option value="60">1 Hour</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <p class="text-muted small">Note: Data is logged every minute. Selecting a larger interval reduces data points for faster loading and better visualization.</p>
+            </div>
+        </div>
+        
+        <!-- Temperature Chart -->
+        <div class="card chart-card">
+            <div class="card-header">
+                <h2 class="card-title">Temperature History</h2>
+            </div>
+            <div class="card-body">
+                <div class="chart-container">
+                    <canvas id="temperature-chart"></canvas>
+                    <div class="chart-loading d-flex justify-content-center align-items-center" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: none;">
+                        <div class="spinner-border text-light" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Humidity Chart -->
+        <div class="card chart-card">
+            <div class="card-header">
+                <h2 class="card-title">Humidity History</h2>
+            </div>
+            <div class="card-body">
+                <div class="chart-container">
+                    <canvas id="humidity-chart"></canvas>
+                    <div class="chart-loading d-flex justify-content-center align-items-center" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: none;">
+                        <div class="spinner-border text-light" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Relay States Chart -->
+        <div class="card chart-card">
+            <div class="card-header">
+                <h2 class="card-title">Device Activity</h2>
+            </div>
+            <div class="card-body">
+                <div class="chart-container">
+                    <canvas id="relay-states-chart"></canvas>
+                    <div class="chart-loading d-flex justify-content-center align-items-center" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: none;">
+                        <div class="spinner-border text-light" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Statistics -->
+        <div class="card stats-card">
+            <div class="card-header">
+                <h2 class="card-title">Statistics Summary</h2>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Temperature</h3>
+                        <div class="stats-container">
+                            <div class="stat-box">
+                                <span class="stat-label">Average</span>
+                                <span id="avg-temp" class="stat-value">--°F</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-label">Minimum</span>
+                                <span id="min-temp" class="stat-value">--°F</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-label">Maximum</span>
+                                <span id="max-temp" class="stat-value">--°F</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <h3>Humidity</h3>
+                        <div class="stats-container">
+                            <div class="stat-box">
+                                <span class="stat-label">Average</span>
+                                <span id="avg-humidity" class="stat-value">--%</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-label">Minimum</span>
+                                <span id="min-humidity" class="stat-value">--%</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-label">Maximum</span>
+                                <span id="max-humidity" class="stat-value">--%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <h3>Duty Cycles</h3>
+                        <div class="stats-container">
+                            <div class="stat-box">
+                                <span class="stat-label">Heater 1</span>
+                                <span id="heater1-duty" class="stat-value">--%</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-label">Heater 2</span>
+                                <span id="heater2-duty" class="stat-value">--%</span>
+                            </div>
+                            <div class="stat-box">
+                                <span class="stat-label">Humidifier</span>
+                                <span id="humidifier-duty" class="stat-value">--%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>PurePeck Incubator Controller &copy; 2025</p>
+            <p><small>Raspberry Pi-based control system</small></p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='analytics.js') }}"></script>
+</body>
+</html>

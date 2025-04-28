@@ -1,0 +1,84 @@
+Create a complete Python Flask web app to run an incubator using a Raspberry Pi.
+
+Start from scratch — no files exist yet.
+
+Requirements:
+
+Hardware:
+
+Raspberry Pi 4 running Raspberry Pi OS 64-bit
+
+8-channel relay board (controls heaters and humidifier)
+
+SHT30 temperature and humidity sensor connected via I2C
+
+Emergency overheat sensor (normally closed circuit, opens when overheating)
+
+Backend (Python):
+
+Use Flask to create the web server.
+
+Use RPi.GPIO for controlling relays and reading overheat sensor.
+
+Monitor temperature and humidity from SHT30 every 5 seconds.
+
+Provide API endpoints to:
+
+Get current temperature, humidity, and relay states.
+
+Turn individual relays ON or OFF.
+
+Trigger emergency shutdown.
+
+Include a separate Python class/module to manage relays with proper GPIO cleanup.
+
+Use logging to a file for all relay actions, temperature readings, and alerts.
+
+Frontend (Webpage):
+
+Show live dashboard:
+
+Current temperature
+
+Current humidity
+
+Relay statuses (Heater 1, Heater 2, Humidifier)
+
+Allow manual ON/OFF control of Heater 1, Heater 2, and Humidifier.
+
+Display ALERT banners if:
+
+Temperature goes out of set safe range (e.g., <95°F or >102°F)
+
+Humidity goes out of safe range (e.g., <40% or >70%)
+
+Overheat sensor triggers
+
+Auto-refresh dashboard every 5–10 seconds.
+
+Simple login screen (hardcoded username and password OK).
+
+Safety Requirements:
+
+If the overheat sensor triggers, automatically turn OFF all heaters immediately and show a RED warning on the webpage.
+
+If the server crashes, use systemd to ensure the app restarts automatically.
+
+GPIO cleanup must happen on shutdown.
+
+Do not allow manual turning ON of heaters if overheat is active.
+
+Allow user to manually trigger an Emergency Shutdown that shuts down all heaters immediately.
+
+Other:
+
+App must auto-start when Raspberry Pi boots (systemd service file).
+
+Use a Python virtual environment (venv).
+
+Use simple CSS styling for clean, readable layout (no frameworks like Bootstrap needed).
+
+Structure the project cleanly (separate static/, templates/, relay_controller.py, sensor_reader.py, etc.).
+
+Assume I have nothing installed yet except Python 3.
+Please also give me the basic install steps (install Flask, enable I2C, etc.).

@@ -1,0 +1,1404 @@
+2025-04-28 17:16:00,851 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:16:00,852 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:16:00,852 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:16:00,852 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:16:00,853 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:16:00,853 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:16:00,855 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:16:00,856 - incubator - INFO - Status: Temp=98.9°F, Humidity=55.6%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:16:00,861 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 17:16:00,861 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 17:16:00,861 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:16:00,861 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 17:16:00,861 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 17:16:00,862 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 17:16:00,862 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 17:16:00,862 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 17:16:00,862 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 17:16:00,963 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 17:16:01,056 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 17:16:01,056 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 17:16:01,058 - incubator - ERROR - Error during hardware cleanup: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:01,071 - incubator - ERROR - Error during hardware cleanup: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:01,088 - incubator - ERROR - Error during hardware cleanup: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:01,112 - incubator - ERROR - Error during hardware cleanup: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:01,470 - incubator - ERROR - Error during hardware cleanup: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:05,856 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:16:05,856 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:16:05,856 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:10,857 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:16:10,857 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:16:10,857 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:15,857 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:16:15,858 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:16:15,858 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:20,859 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:16:20,859 - incubator - WARNING - WARNING: Humidity too low (34.6%)
+2025-04-28 17:16:20,860 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:16:20,860 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:25,860 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:16:25,860 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:16:25,860 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:30,861 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:16:30,861 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:16:30,862 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:35,862 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:16:35,862 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:16:35,862 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:40,863 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:16:40,863 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:16:40,863 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:45,863 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:16:45,863 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:16:45,863 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:50,864 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:16:50,864 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:16:50,864 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:16:55,864 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:16:55,865 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:16:55,865 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:17:00,865 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:17:00,865 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:17:00,865 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:17:05,866 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:17:05,866 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:17:05,866 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:17:09,885 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:17:09,886 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:17:09,886 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:17:09,886 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:17:09,890 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:17:09,890 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:17:09,893 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:17:09,900 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 17:17:09,901 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 17:17:09,901 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:17:09,901 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 17:17:09,902 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 17:17:09,902 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 17:17:09,903 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 17:17:09,903 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 17:17:09,903 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 17:17:10,004 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 17:17:10,087 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 17:17:10,087 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 17:17:10,155 - incubator - ERROR - Error during hardware cleanup: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:17:10,359 - incubator - ERROR - Error during hardware cleanup: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:17:14,894 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:17:14,894 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:17:14,894 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:17:19,894 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:17:19,894 - incubator - ERROR - EMERGENCY: Overheat detected! Heaters disabled.
+2025-04-28 17:17:19,895 - incubator - ERROR - Error in monitoring thread: DigitalOutputDevice is closed or uninitialized
+2025-04-28 17:17:24,337 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:17:24,338 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:17:24,338 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:17:24,338 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:17:24,338 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:17:24,339 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:17:24,341 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:17:38,685 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:17:38,686 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:17:38,686 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:17:38,686 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:17:38,687 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:17:38,688 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:17:38,691 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:17:47,324 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:17:47,324 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:17:47,325 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:17:47,325 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:17:47,325 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:17:47,325 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:17:47,331 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:17:47,428 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 17:17:47,428 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 17:17:47,428 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 17:17:47,429 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:17:47,429 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 17:17:47,429 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 17:17:47,429 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 17:17:47,429 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 17:17:47,429 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 17:17:47,429 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 17:17:47,530 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 17:17:47,530 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 17:17:52,332 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:17:57,332 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:17:57,333 - incubator - WARNING - WARNING: Temperature too high (104.0°F)
+2025-04-28 17:18:02,333 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:18:02,333 - incubator - INFO - Status: Temp=99.8°F, Humidity=50.5%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:18:07,333 - incubator.emergency - ERROR - Error checking overheat sensor: Button is closed or uninitialized
+2025-04-28 17:18:09,812 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:18:09,813 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:18:09,813 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:18:09,813 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:18:09,814 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:18:09,814 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:18:09,820 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:18:14,821 - incubator - WARNING - WARNING: Temperature too high (102.8°F)
+2025-04-28 17:18:19,848 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 17:18:19,937 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 17:18:19,937 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 17:18:19,937 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 17:18:19,937 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:18:19,937 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 17:18:19,937 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 17:18:19,937 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 17:18:19,937 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 17:18:19,937 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 17:18:19,937 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 17:18:20,038 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 17:18:20,038 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 17:18:20,304 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:18:20,305 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:18:20,305 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:18:20,305 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:18:20,308 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:18:20,310 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:18:20,317 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:18:33,354 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 17:18:33,430 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 17:18:33,430 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 17:18:33,430 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 17:18:33,430 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:18:33,431 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 17:18:33,431 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 17:18:33,431 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 17:18:33,431 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 17:18:33,431 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 17:18:33,431 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 17:18:33,534 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 17:18:33,535 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 17:18:33,788 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:18:33,789 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:18:33,789 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:18:33,789 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:18:33,790 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:18:33,790 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:18:33,794 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:18:46,847 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 17:18:46,915 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 17:18:46,915 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 17:18:46,915 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 17:18:46,915 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:18:46,915 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 17:18:46,915 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 17:18:46,916 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 17:18:46,916 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 17:18:46,916 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 17:18:46,916 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 17:18:47,016 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 17:18:47,016 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 17:18:47,419 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:18:47,419 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:18:47,419 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:18:47,419 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:18:47,422 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:18:47,422 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:18:47,429 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:19:02,429 - incubator - INFO - Status: Temp=99.8°F, Humidity=57.2%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:19:22,430 - incubator - WARNING - WARNING: Temperature too low (93.9°F)
+2025-04-28 17:19:37,431 - incubator - WARNING - WARNING: Temperature too high (103.3°F)
+2025-04-28 17:20:02,432 - incubator - INFO - Status: Temp=97.5°F, Humidity=54.3%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:20:27,433 - incubator - WARNING - WARNING: Temperature too high (103.1°F)
+2025-04-28 17:21:02,434 - incubator - INFO - Status: Temp=97.8°F, Humidity=63.3%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:22:02,436 - incubator - INFO - Status: Temp=99.5°F, Humidity=59.9%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:22:07,436 - incubator - WARNING - WARNING: Temperature too low (94.1°F)
+2025-04-28 17:23:02,439 - incubator - INFO - Status: Temp=98.3°F, Humidity=60.5%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:23:07,440 - incubator - WARNING - WARNING: Humidity too low (36.8%)
+2025-04-28 17:23:22,441 - incubator - WARNING - WARNING: Temperature too high (102.9°F)
+2025-04-28 17:24:02,443 - incubator - INFO - Status: Temp=98.2°F, Humidity=46.0%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:24:17,443 - incubator - WARNING - WARNING: Humidity too high (72.4%)
+2025-04-28 17:25:02,445 - incubator - INFO - Status: Temp=97.9°F, Humidity=45.9%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:25:37,447 - incubator - WARNING - WARNING: Temperature too high (103.3°F)
+2025-04-28 17:26:02,448 - incubator - INFO - Status: Temp=97.6°F, Humidity=60.5%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:26:17,448 - incubator - WARNING - WARNING: Temperature too low (94.2°F)
+2025-04-28 17:26:27,449 - incubator - WARNING - WARNING: Temperature too high (102.6°F)
+2025-04-28 17:26:57,450 - incubator - WARNING - WARNING: Humidity too high (78.3%)
+2025-04-28 17:27:02,450 - incubator - INFO - Status: Temp=99.9°F, Humidity=56.3%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:27:57,452 - incubator - WARNING - WARNING: Humidity too low (36.4%)
+2025-04-28 17:28:02,452 - incubator - INFO - Status: Temp=99.9°F, Humidity=55.1%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:28:32,453 - incubator - WARNING - WARNING: Humidity too low (33.1%)
+2025-04-28 17:29:02,455 - incubator - INFO - Status: Temp=100.0°F, Humidity=54.9%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:29:37,456 - incubator - WARNING - WARNING: Temperature too high (103.5°F)
+2025-04-28 17:29:42,456 - incubator - WARNING - WARNING: Temperature too high (102.8°F)
+2025-04-28 17:30:02,457 - incubator - INFO - Status: Temp=97.5°F, Humidity=50.7%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:30:17,458 - incubator - WARNING - WARNING: Temperature too high (103.6°F)
+2025-04-28 17:30:22,458 - incubator - WARNING - WARNING: Temperature too high (103.9°F)
+2025-04-28 17:31:02,459 - incubator - INFO - Status: Temp=97.4°F, Humidity=63.7%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:32:02,461 - incubator - INFO - Status: Temp=99.5°F, Humidity=51.8%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:32:07,462 - incubator - WARNING - WARNING: Humidity too low (32.8%)
+2025-04-28 17:32:27,463 - incubator - WARNING - WARNING: Humidity too high (78.9%)
+2025-04-28 17:33:02,464 - incubator - INFO - Status: Temp=97.3°F, Humidity=61.6%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:33:27,465 - incubator - WARNING - WARNING: Humidity too high (76.1%)
+2025-04-28 17:33:47,465 - incubator - WARNING - WARNING: Temperature too low (93.0°F)
+2025-04-28 17:33:47,465 - incubator - WARNING - WARNING: Humidity too high (71.2%)
+2025-04-28 17:34:02,466 - incubator - INFO - Status: Temp=98.3°F, Humidity=64.9%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:34:47,469 - incubator - WARNING - WARNING: Humidity too low (30.4%)
+2025-04-28 17:35:02,469 - incubator - INFO - Status: Temp=98.1°F, Humidity=50.3%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:35:27,470 - incubator - WARNING - WARNING: Humidity too high (78.3%)
+2025-04-28 17:35:37,471 - incubator - WARNING - WARNING: Humidity too low (32.6%)
+2025-04-28 17:36:02,471 - incubator - INFO - Status: Temp=97.4°F, Humidity=57.4%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:37:02,473 - incubator - INFO - Status: Temp=98.1°F, Humidity=54.1%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:37:52,475 - incubator - WARNING - WARNING: Humidity too high (72.5%)
+2025-04-28 17:38:02,475 - incubator - INFO - Status: Temp=97.5°F, Humidity=60.5%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:38:37,476 - incubator - WARNING - WARNING: Humidity too low (35.4%)
+2025-04-28 17:38:42,477 - incubator - WARNING - WARNING: Humidity too low (38.9%)
+2025-04-28 17:39:02,477 - incubator - INFO - Status: Temp=97.4°F, Humidity=48.2%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:40:02,479 - incubator - INFO - Status: Temp=98.0°F, Humidity=59.4%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:40:07,480 - incubator - WARNING - WARNING: Temperature too high (103.9°F)
+2025-04-28 17:40:47,481 - incubator - WARNING - WARNING: Humidity too high (75.1%)
+2025-04-28 17:41:02,482 - incubator - INFO - Status: Temp=98.8°F, Humidity=55.6%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:41:07,482 - incubator - WARNING - WARNING: Temperature too high (103.2°F)
+2025-04-28 17:41:37,483 - incubator - WARNING - WARNING: Temperature too high (102.5°F)
+2025-04-28 17:41:57,484 - incubator - WARNING - WARNING: Temperature too low (94.9°F)
+2025-04-28 17:42:02,484 - incubator - INFO - Status: Temp=99.1°F, Humidity=50.4%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:43:02,486 - incubator - INFO - Status: Temp=99.5°F, Humidity=64.8%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:43:17,487 - incubator - WARNING - WARNING: Humidity too low (32.6%)
+2025-04-28 17:43:22,487 - incubator - WARNING - WARNING: Humidity too low (33.1%)
+2025-04-28 17:43:43,987 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 17:43:44,076 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 17:43:44,076 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 17:43:44,076 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 17:43:44,076 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:43:44,076 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 17:43:44,077 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 17:43:44,077 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 17:43:44,077 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 17:43:44,077 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 17:43:44,077 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 17:43:44,177 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 17:43:44,178 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 17:43:44,360 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:43:44,360 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:43:44,360 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:43:44,360 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:43:44,361 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:43:44,361 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:43:44,364 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:43:49,364 - incubator - WARNING - WARNING: Humidity too low (31.9%)
+2025-04-28 17:43:55,395 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 17:43:55,481 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 17:43:55,481 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 17:43:55,481 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 17:43:55,481 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:43:55,481 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 17:43:55,481 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 17:43:55,481 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 17:43:55,482 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 17:43:55,482 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 17:43:55,482 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 17:43:55,582 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 17:43:55,582 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 17:43:55,809 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:43:55,810 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:43:55,810 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:43:55,810 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:43:55,811 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:43:55,811 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:43:55,815 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:44:00,816 - incubator - INFO - Status: Temp=97.3°F, Humidity=59.0%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:44:13,856 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 17:44:13,937 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 17:44:13,937 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 17:44:13,938 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 17:44:13,938 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:44:13,938 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 17:44:13,938 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 17:44:13,938 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 17:44:13,938 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 17:44:13,938 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 17:44:13,938 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 17:44:14,039 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 17:44:14,039 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 17:44:14,220 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:44:14,221 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:44:14,221 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:44:14,221 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:44:14,222 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:44:14,222 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:44:14,225 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:44:24,225 - incubator - WARNING - WARNING: Temperature too low (93.2°F)
+2025-04-28 17:45:04,227 - incubator - INFO - Status: Temp=99.6°F, Humidity=55.1%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:45:49,943 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:45:49,944 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:45:49,944 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:45:49,944 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:45:49,945 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:45:49,945 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:45:49,947 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:45:54,949 - incubator - WARNING - WARNING: Humidity too low (35.9%)
+2025-04-28 17:45:59,949 - incubator - WARNING - WARNING: Humidity too high (76.5%)
+2025-04-28 17:46:04,950 - incubator - INFO - Status: Temp=97.7°F, Humidity=56.4%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:46:39,951 - incubator - WARNING - WARNING: Temperature too high (103.5°F)
+2025-04-28 17:47:04,952 - incubator - INFO - Status: Temp=99.6°F, Humidity=57.0%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:47:31,207 - incubator - INFO - User 'admin' logged in successfully
+2025-04-28 17:47:35,379 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 17:47:35,379 - incubator - INFO - Turned ON heater1
+2025-04-28 17:47:37,218 - incubator.relay - INFO - Relay channel 1 turned ON (Pin 18)
+2025-04-28 17:47:37,218 - incubator - INFO - Turned ON heater2
+2025-04-28 17:47:39,121 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 17:47:39,121 - incubator - INFO - Turned ON humidifier
+2025-04-28 17:47:40,691 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:47:40,691 - incubator - INFO - Turned OFF humidifier
+2025-04-28 17:47:41,568 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 17:47:41,568 - incubator - INFO - Turned OFF heater2
+2025-04-28 17:47:42,017 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 17:47:42,018 - incubator - INFO - Turned OFF heater1
+2025-04-28 17:48:04,954 - incubator - INFO - Status: Temp=97.0°F, Humidity=60.5%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:48:09,955 - incubator - WARNING - WARNING: Temperature too high (103.2°F)
+2025-04-28 17:48:24,425 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 17:48:24,425 - incubator - INFO - Turned ON heater1
+2025-04-28 17:48:24,942 - incubator.relay - INFO - Relay channel 1 turned ON (Pin 18)
+2025-04-28 17:48:24,942 - incubator - INFO - Turned ON heater2
+2025-04-28 17:48:25,466 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 17:48:25,466 - incubator - INFO - Turned ON humidifier
+2025-04-28 17:48:27,775 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:48:27,775 - incubator - INFO - Turned OFF humidifier
+2025-04-28 17:49:04,957 - incubator - INFO - Status: Temp=99.4°F, Humidity=63.4%, Heater1=ON, Heater2=ON, Humidifier=OFF
+2025-04-28 17:54:14,247 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:54:14,248 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:54:14,248 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:54:14,248 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:54:14,249 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:54:14,249 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:54:14,251 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:54:36,296 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 17:54:36,372 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 17:54:36,372 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 17:54:36,372 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 17:54:36,372 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:54:36,372 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 17:54:36,372 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 17:54:36,372 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 17:54:36,372 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 17:54:36,373 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 17:54:36,373 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 17:54:36,473 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 17:54:36,473 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 17:54:36,632 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:54:36,632 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:54:36,633 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:54:36,633 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:54:36,633 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:54:36,633 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:54:36,635 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:54:50,663 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 17:54:50,749 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 17:54:50,749 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 17:54:50,750 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 17:54:50,750 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:54:50,750 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 17:54:50,750 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 17:54:50,750 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 17:54:50,750 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 17:54:50,750 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 17:54:50,750 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 17:54:50,851 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 17:54:50,851 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 17:54:51,045 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:54:51,046 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:54:51,046 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:54:51,046 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:54:51,047 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:54:51,047 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:54:51,051 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:55:01,053 - incubator - INFO - Status: Temp=99.9°F, Humidity=52.1%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 17:55:06,054 - incubator - WARNING - WARNING: Humidity too high (73.3%)
+2025-04-28 17:55:25,132 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 17:55:25,191 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 17:55:25,191 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 17:55:25,191 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 17:55:25,192 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:55:25,192 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 17:55:25,192 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 17:55:25,192 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 17:55:25,192 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 17:55:25,192 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 17:55:25,192 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 17:55:25,293 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 17:55:25,293 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 17:55:25,449 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 17:55:25,449 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 17:55:25,449 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 17:55:25,449 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 17:55:25,450 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 17:55:25,450 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 17:55:25,452 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 17:55:53,175 - incubator - INFO - User 'admin' logged in successfully
+2025-04-28 17:55:58,020 - incubator.relay - INFO - Relay channel 1 turned ON (Pin 18)
+2025-04-28 17:55:58,021 - incubator - INFO - Turned ON heater2
+2025-04-28 17:55:58,022 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 17:55:58,022 - incubator - INFO - Turned ON heater1
+2025-04-28 17:56:00,454 - incubator - INFO - Status: Temp=97.6°F, Humidity=64.8%, Heater1=ON, Heater2=ON, Humidifier=OFF
+2025-04-28 17:56:08,711 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 17:56:08,712 - incubator - INFO - Turned ON humidifier
+2025-04-28 17:56:35,455 - incubator - WARNING - WARNING: Temperature too low (94.8°F)
+2025-04-28 17:56:43,698 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:56:43,698 - incubator - INFO - Turned OFF humidifier
+2025-04-28 17:56:50,716 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 17:56:50,717 - incubator - INFO - Turned ON humidifier
+2025-04-28 17:57:00,456 - incubator - INFO - Status: Temp=98.6°F, Humidity=47.1%, Heater1=ON, Heater2=ON, Humidifier=ON
+2025-04-28 17:57:30,457 - incubator - WARNING - WARNING: Humidity too high (75.3%)
+2025-04-28 17:57:37,149 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 17:57:37,149 - incubator - INFO - Turned OFF humidifier
+2025-04-28 17:57:50,458 - incubator - WARNING - WARNING: Humidity too high (76.9%)
+2025-04-28 17:58:00,458 - incubator - INFO - Status: Temp=99.0°F, Humidity=51.9%, Heater1=ON, Heater2=ON, Humidifier=OFF
+2025-04-28 17:59:00,460 - incubator - WARNING - WARNING: Humidity too high (78.5%)
+2025-04-28 17:59:00,460 - incubator - INFO - Status: Temp=98.2°F, Humidity=78.5%, Heater1=ON, Heater2=ON, Humidifier=OFF
+2025-04-28 17:59:10,461 - incubator - WARNING - WARNING: Humidity too high (77.5%)
+2025-04-28 17:59:45,462 - incubator - WARNING - WARNING: Temperature too low (94.4°F)
+2025-04-28 18:00:00,463 - incubator - INFO - Status: Temp=99.0°F, Humidity=57.2%, Heater1=ON, Heater2=ON, Humidifier=OFF
+2025-04-28 18:00:35,464 - incubator - WARNING - WARNING: Humidity too high (78.5%)
+2025-04-28 18:00:40,464 - incubator - WARNING - WARNING: Humidity too low (32.4%)
+2025-04-28 18:01:00,465 - incubator - INFO - Status: Temp=97.6°F, Humidity=59.6%, Heater1=ON, Heater2=ON, Humidifier=OFF
+2025-04-28 18:01:15,466 - incubator - WARNING - WARNING: Humidity too low (35.4%)
+2025-04-28 18:01:40,466 - incubator - WARNING - WARNING: Humidity too high (71.3%)
+2025-04-28 18:01:55,476 - incubator - WARNING - WARNING: Temperature too low (93.7°F)
+2025-04-28 18:02:00,476 - incubator - INFO - Status: Temp=99.8°F, Humidity=53.8%, Heater1=ON, Heater2=ON, Humidifier=OFF
+2025-04-28 18:02:01,813 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:02:01,813 - incubator - INFO - Turned OFF heater2
+2025-04-28 18:02:04,224 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:02:04,224 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:02:11,223 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:02:11,223 - incubator - INFO - Turned ON heater1
+2025-04-28 18:02:18,223 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:02:18,223 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:02:25,238 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:02:25,238 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:02:32,229 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:02:32,229 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:02:39,225 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:02:39,225 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:02:50,478 - incubator - WARNING - WARNING: Temperature too low (93.8°F)
+2025-04-28 18:03:00,479 - incubator - INFO - Status: Temp=98.7°F, Humidity=51.4%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:03:05,177 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:03:05,178 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:03:12,173 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:03:12,174 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:03:30,480 - incubator - WARNING - WARNING: Humidity too low (38.3%)
+2025-04-28 18:03:31,613 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:03:31,613 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:03:45,171 - incubator - INFO - User 'admin' logged in successfully
+2025-04-28 18:03:53,639 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:03:53,640 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:03:55,481 - incubator - WARNING - WARNING: Humidity too low (35.8%)
+2025-04-28 18:04:00,481 - incubator - INFO - Status: Temp=98.7°F, Humidity=61.0%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:04:30,482 - incubator - WARNING - WARNING: Humidity too low (30.4%)
+2025-04-28 18:04:40,482 - incubator - WARNING - WARNING: Temperature too low (94.6°F)
+2025-04-28 18:04:54,090 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:04:54,090 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:05:00,483 - incubator - INFO - Status: Temp=99.2°F, Humidity=48.6%, Heater1=ON, Heater2=OFF, Humidifier=ON
+2025-04-28 18:05:15,484 - incubator - WARNING - WARNING: Temperature too high (102.8°F)
+2025-04-28 18:05:22,088 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:05:22,192 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:05:29,074 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:05:29,074 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:05:54,493 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:05:54,494 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:06:00,485 - incubator - WARNING - WARNING: Humidity too high (79.5%)
+2025-04-28 18:06:03,542 - incubator - INFO - Status: Temp=97.5°F, Humidity=79.5%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:06:15,491 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:06:15,491 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:06:22,502 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:06:22,502 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:06:22,503 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:06:22,503 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:06:29,498 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:06:29,498 - incubator - INFO - Turned ON heater1
+2025-04-28 18:06:29,499 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:06:29,500 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:06:36,507 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:06:36,507 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:06:43,500 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:06:43,500 - incubator - INFO - Turned ON heater1
+2025-04-28 18:06:47,946 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:06:47,946 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:06:54,962 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:06:54,962 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:07:01,950 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:07:01,951 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:07:03,545 - incubator - INFO - Status: Temp=98.7°F, Humidity=49.0%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:07:15,946 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:07:15,946 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:07:15,947 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:07:15,947 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:07:22,959 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:07:22,959 - incubator - INFO - Turned ON heater1
+2025-04-28 18:07:36,959 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:07:36,959 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:07:55,345 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:07:55,345 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:08:03,548 - incubator - INFO - Status: Temp=98.3°F, Humidity=52.7%, Heater1=ON, Heater2=OFF, Humidifier=ON
+2025-04-28 18:08:08,548 - incubator - WARNING - WARNING: Temperature too low (93.1°F)
+2025-04-28 18:08:16,357 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:08:16,357 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:08:23,358 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:08:23,358 - incubator - INFO - Turned ON heater1
+2025-04-28 18:08:37,356 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:08:37,356 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:08:44,355 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:08:44,355 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:08:44,432 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:08:44,433 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:08:48,781 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:08:48,781 - incubator - INFO - Turned ON heater1
+2025-04-28 18:08:48,782 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:08:48,782 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:08:58,550 - incubator - WARNING - WARNING: Temperature too high (103.8°F)
+2025-04-28 18:09:02,800 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:09:02,800 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:09:03,550 - incubator - INFO - Status: Temp=99.6°F, Humidity=50.0%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:09:09,800 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:09:09,800 - incubator - INFO - Turned ON heater1
+2025-04-28 18:09:09,801 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:09:09,802 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:09:23,794 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:09:23,795 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:09:36,607 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:09:36,607 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:09:43,632 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:09:43,633 - incubator - INFO - Turned ON heater1
+2025-04-28 18:09:50,622 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:09:50,622 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:09:57,614 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:09:57,614 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:10:03,555 - incubator - INFO - Status: Temp=99.2°F, Humidity=57.5%, Heater1=OFF, Heater2=OFF, Humidifier=ON
+2025-04-28 18:10:06,888 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:10:06,888 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:10:11,640 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:10:11,640 - incubator - INFO - Turned ON heater1
+2025-04-28 18:10:11,642 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:10:11,642 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:10:18,555 - incubator - WARNING - WARNING: Humidity too high (76.7%)
+2025-04-28 18:10:18,618 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:10:18,619 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:10:25,626 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:10:25,626 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:10:32,634 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:10:32,635 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:10:37,047 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:10:37,047 - incubator - INFO - Turned ON heater1
+2025-04-28 18:10:51,050 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:10:51,050 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:10:58,049 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:10:58,049 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:11:03,561 - incubator - INFO - Status: Temp=97.3°F, Humidity=45.0%, Heater1=ON, Heater2=OFF, Humidifier=ON
+2025-04-28 18:11:19,042 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:11:19,042 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:11:26,051 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:11:26,051 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:11:26,122 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:11:26,122 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:11:33,058 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:11:33,058 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:11:37,461 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:11:37,461 - incubator - INFO - Turned ON heater1
+2025-04-28 18:11:44,467 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:11:44,467 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:11:48,562 - incubator - WARNING - WARNING: Temperature too low (94.6°F)
+2025-04-28 18:11:58,469 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:11:58,470 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:11:58,563 - incubator - WARNING - WARNING: Humidity too high (73.5%)
+2025-04-28 18:12:03,563 - incubator - INFO - Status: Temp=97.7°F, Humidity=54.7%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:12:08,563 - incubator - WARNING - WARNING: Temperature too low (93.4°F)
+2025-04-28 18:12:26,460 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:12:26,460 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:12:33,465 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:12:33,466 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:12:33,564 - incubator - WARNING - WARNING: Temperature too low (94.8°F)
+2025-04-28 18:12:53,565 - incubator - WARNING - WARNING: Temperature too low (93.3°F)
+2025-04-28 18:12:58,565 - incubator - WARNING - WARNING: Temperature too high (103.1°F)
+2025-04-28 18:12:58,884 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:12:58,884 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:12:58,886 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:12:58,886 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:13:03,566 - incubator - INFO - Status: Temp=99.7°F, Humidity=56.3%, Heater1=OFF, Heater2=OFF, Humidifier=ON
+2025-04-28 18:13:12,879 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:13:12,879 - incubator - INFO - Turned ON heater1
+2025-04-28 18:13:12,884 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:13:12,884 - incubator - INFO - Turned OFF humidifier
+2025-04-28 18:13:23,566 - incubator - WARNING - WARNING: Temperature too high (103.6°F)
+2025-04-28 18:13:26,886 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:13:26,886 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:13:33,898 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:13:33,898 - incubator - INFO - Turned ON heater1
+2025-04-28 18:13:33,900 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:13:33,900 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:14:03,568 - incubator - INFO - Status: Temp=98.3°F, Humidity=63.8%, Heater1=ON, Heater2=OFF, Humidifier=ON
+2025-04-28 18:14:43,569 - incubator - WARNING - WARNING: Temperature too low (94.8°F)
+2025-04-28 18:14:43,569 - incubator - WARNING - WARNING: Humidity too low (34.4%)
+2025-04-28 18:15:03,570 - incubator - INFO - Status: Temp=97.3°F, Humidity=47.6%, Heater1=ON, Heater2=OFF, Humidifier=ON
+2025-04-28 18:15:05,563 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:15:05,588 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:15:05,588 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:15:05,589 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:15:05,589 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:15:05,589 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:15:05,589 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:15:05,589 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:15:05,589 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:15:05,589 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:15:05,590 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:15:05,690 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:15:05,691 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:15:09,030 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:15:09,030 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:15:09,030 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:15:09,031 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:15:09,032 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:15:09,032 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:15:09,035 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:15:09,036 - incubator - WARNING - WARNING: Humidity too low (31.2%)
+2025-04-28 18:15:34,038 - incubator - WARNING - WARNING: Temperature too low (94.2°F)
+2025-04-28 18:16:04,039 - incubator - INFO - Status: Temp=98.9°F, Humidity=48.4%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:16:24,040 - incubator - WARNING - WARNING: Temperature too low (94.4°F)
+2025-04-28 18:16:25,776 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:16:25,776 - incubator - INFO - Turned ON heater1
+2025-04-28 18:16:59,041 - incubator - WARNING - WARNING: Temperature too high (103.4°F)
+2025-04-28 18:16:59,042 - incubator - WARNING - WARNING: Humidity too low (31.3%)
+2025-04-28 18:16:59,504 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:16:59,504 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:17:04,043 - incubator - INFO - Status: Temp=99.8°F, Humidity=45.4%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:17:13,531 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:17:13,531 - incubator - INFO - Turned ON heater1
+2025-04-28 18:17:29,044 - incubator - WARNING - WARNING: Humidity too low (35.9%)
+2025-04-28 18:18:04,046 - incubator - INFO - Status: Temp=98.1°F, Humidity=54.5%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:18:19,046 - incubator - WARNING - WARNING: Temperature too high (102.6°F)
+2025-04-28 18:18:53,323 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:18:53,323 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:19:04,048 - incubator - INFO - Status: Temp=99.0°F, Humidity=53.6%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:19:07,330 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:19:07,330 - incubator - INFO - Turned ON heater1
+2025-04-28 18:19:32,800 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:19:32,801 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:19:39,347 - incubator - WARNING - Failed login attempt for user 'admin'
+2025-04-28 18:19:45,079 - incubator - WARNING - Failed login attempt for user 'admin'
+2025-04-28 18:19:53,131 - incubator - INFO - User 'admin' logged in successfully
+2025-04-28 18:19:54,647 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:19:54,647 - incubator - INFO - Turned ON heater1
+2025-04-28 18:20:04,051 - incubator - WARNING - WARNING: Humidity too low (34.1%)
+2025-04-28 18:20:04,051 - incubator - INFO - Status: Temp=99.8°F, Humidity=34.1%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:20:08,659 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:20:08,659 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:20:13,831 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:20:13,898 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:20:13,898 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:20:13,898 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:20:13,898 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:20:13,898 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:20:13,898 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:20:13,898 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:20:13,898 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:20:13,898 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:20:13,898 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:20:13,999 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:20:13,999 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:20:14,209 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:20:14,209 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:20:14,209 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:20:14,209 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:20:14,210 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:20:14,210 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:20:14,213 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:20:21,071 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:20:21,123 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:20:21,123 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:20:21,124 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:20:21,124 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:20:21,124 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:20:21,124 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:20:21,124 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:20:21,124 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:20:21,124 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:20:21,124 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:20:21,225 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:20:21,225 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:20:21,798 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:20:21,799 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:20:21,799 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:20:21,799 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:20:21,800 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:20:21,800 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:20:21,803 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:20:29,654 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:20:29,654 - incubator - INFO - Turned ON heater1
+2025-04-28 18:21:01,805 - incubator - WARNING - WARNING: Humidity too high (73.6%)
+2025-04-28 18:21:01,805 - incubator - INFO - Status: Temp=99.4°F, Humidity=73.6%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:21:16,709 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:21:16,710 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:21:30,718 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:21:30,718 - incubator - INFO - Turned ON heater1
+2025-04-28 18:21:35,124 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:21:35,125 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:21:46,807 - incubator - WARNING - WARNING: Humidity too high (79.5%)
+2025-04-28 18:21:49,122 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:21:49,122 - incubator - INFO - Turned ON heater1
+2025-04-28 18:22:01,808 - incubator - INFO - Status: Temp=99.5°F, Humidity=50.7%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:22:02,622 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:22:02,623 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:22:02,623 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:22:02,623 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:22:02,624 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:22:02,624 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:22:02,628 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:22:02,628 - incubator - INFO - Status: Temp=98.0°F, Humidity=54.2%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:22:17,899 - incubator - INFO - User 'admin' logged in successfully
+2025-04-28 18:22:19,430 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:22:19,431 - incubator - INFO - Turned ON heater1
+2025-04-28 18:22:33,426 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:22:33,426 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:22:40,425 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:22:40,425 - incubator - INFO - Turned ON heater1
+2025-04-28 18:22:47,629 - incubator - WARNING - WARNING: Temperature too high (103.2°F)
+2025-04-28 18:23:02,630 - incubator - INFO - Status: Temp=97.7°F, Humidity=53.8%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:23:10,675 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:23:10,685 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:23:10,685 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:23:10,685 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:23:10,686 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:23:10,686 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:23:10,686 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:23:10,686 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:23:10,686 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:23:10,686 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:23:10,686 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:23:10,787 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:23:10,787 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:23:11,612 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:23:11,614 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:23:11,615 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:23:11,616 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:23:11,617 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:23:11,619 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:23:11,625 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:23:16,459 - incubator - INFO - User 'admin' logged in successfully
+2025-04-28 18:23:17,963 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:23:17,964 - incubator - INFO - Turned ON heater1
+2025-04-28 18:23:31,961 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:23:31,962 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:23:45,959 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:23:45,959 - incubator - INFO - Turned ON heater1
+2025-04-28 18:23:52,959 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:23:52,960 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:23:59,966 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:23:59,966 - incubator - INFO - Turned ON heater1
+2025-04-28 18:24:01,635 - incubator - INFO - Status: Temp=98.4°F, Humidity=63.2%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:24:13,963 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:24:13,963 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:24:25,410 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:24:25,410 - incubator - INFO - Turned ON heater1
+2025-04-28 18:24:41,637 - incubator - WARNING - WARNING: Humidity too high (76.0%)
+2025-04-28 18:24:46,407 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:24:46,407 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:24:53,408 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:24:53,408 - incubator - INFO - Turned ON heater1
+2025-04-28 18:25:01,639 - incubator - INFO - Status: Temp=97.3°F, Humidity=56.2%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:25:21,640 - incubator - WARNING - WARNING: Humidity too high (76.4%)
+2025-04-28 18:25:39,160 - incubator.relay - INFO - Relay channel 2 turned ON (Pin 27)
+2025-04-28 18:25:39,160 - incubator - INFO - Turned ON humidifier
+2025-04-28 18:25:39,820 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:25:39,820 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:25:46,827 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:25:46,828 - incubator - INFO - Turned ON heater1
+2025-04-28 18:26:01,642 - incubator - INFO - Status: Temp=97.3°F, Humidity=50.8%, Heater1=ON, Heater2=OFF, Humidifier=ON
+2025-04-28 18:26:33,282 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:26:33,282 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:26:40,269 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:26:40,269 - incubator - INFO - Turned ON heater1
+2025-04-28 18:27:01,643 - incubator - INFO - Status: Temp=98.1°F, Humidity=63.2%, Heater1=ON, Heater2=OFF, Humidifier=ON
+2025-04-28 18:27:08,284 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:27:08,285 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:27:15,283 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:27:15,284 - incubator - INFO - Turned ON heater1
+2025-04-28 18:27:33,689 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:27:33,689 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:27:40,694 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:27:40,695 - incubator - INFO - Turned ON heater1
+2025-04-28 18:31:29,121 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:31:29,121 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:31:29,121 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:31:29,121 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:31:29,123 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:31:29,123 - incubator.datalogger - INFO - Created data directory: data
+2025-04-28 18:31:29,123 - incubator.datalogger - INFO - Created new data file: data/incubator_2025-04-28.csv
+2025-04-28 18:31:29,123 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:31:29,127 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:31:29,127 - incubator - WARNING - WARNING: Humidity too high (74.1%)
+2025-04-28 18:31:59,128 - incubator - WARNING - WARNING: Humidity too high (72.9%)
+2025-04-28 18:32:04,132 - incubator - WARNING - WARNING: Temperature too high (103.3°F)
+2025-04-28 18:32:04,132 - incubator - INFO - Status: Temp=103.3°F, Humidity=57.4%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:32:05,231 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:32:05,293 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:32:05,294 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:32:05,294 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:32:05,294 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:32:05,294 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:32:05,294 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:32:05,294 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:32:05,294 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:32:05,294 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:32:05,294 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:32:05,395 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:32:05,395 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:32:05,611 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:32:05,612 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:32:05,612 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:32:05,613 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:32:05,614 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:32:05,615 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:32:05,618 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:32:22,662 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:32:22,758 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:32:22,758 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:32:22,758 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:32:22,758 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:32:22,758 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:32:22,758 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:32:22,758 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:32:22,758 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:32:22,759 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:32:22,759 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:32:22,859 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:32:22,859 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:32:23,084 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:32:23,084 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:32:23,084 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:32:23,084 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:32:23,085 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:32:23,085 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:32:23,089 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:33:03,091 - incubator - INFO - Status: Temp=99.0°F, Humidity=56.4%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:33:33,096 - incubator - WARNING - WARNING: Temperature too low (93.4°F)
+2025-04-28 18:33:33,096 - incubator - WARNING - WARNING: Humidity too high (77.8%)
+2025-04-28 18:33:53,097 - incubator - WARNING - WARNING: Temperature too high (103.5°F)
+2025-04-28 18:34:03,097 - incubator - INFO - Status: Temp=98.9°F, Humidity=50.9%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:34:52,444 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:34:52,515 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:34:52,516 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:34:52,516 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:34:52,516 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:34:52,516 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:34:52,516 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:34:52,516 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:34:52,516 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:34:52,516 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:34:52,517 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:34:52,617 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:34:52,617 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:34:52,817 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:34:52,817 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:34:52,817 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:34:52,817 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:34:52,818 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:34:52,818 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:34:52,822 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:34:52,823 - incubator - WARNING - WARNING: Temperature too low (93.1°F)
+2025-04-28 18:35:02,824 - incubator - INFO - Status: Temp=98.8°F, Humidity=55.1%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:35:07,858 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:35:07,950 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:35:07,950 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:35:07,950 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:35:07,950 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:35:07,950 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:35:07,950 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:35:07,950 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:35:07,951 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:35:07,951 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:35:07,951 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:35:08,051 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:35:08,051 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:35:08,271 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:35:08,271 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:35:08,271 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:35:08,271 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:35:08,273 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:35:08,273 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:35:08,278 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:35:36,732 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:35:36,827 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:35:36,827 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:35:36,827 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:35:36,827 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:35:36,827 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:35:36,827 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:35:36,828 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:35:36,828 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:35:36,828 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:35:36,828 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:35:36,928 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:35:36,928 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:35:37,607 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:35:37,608 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:35:37,608 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:35:37,608 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:35:37,610 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:35:37,610 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:35:37,616 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:36:02,617 - incubator - INFO - Status: Temp=99.3°F, Humidity=63.0%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:36:04,194 - incubator - INFO - User 'admin' logged in successfully
+2025-04-28 18:36:07,620 - incubator - WARNING - WARNING: Temperature too low (94.0°F)
+2025-04-28 18:36:48,295 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:36:48,295 - incubator - INFO - Turned ON heater1
+2025-04-28 18:37:02,621 - incubator - INFO - Status: Temp=97.2°F, Humidity=59.1%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:37:47,623 - incubator - WARNING - WARNING: Temperature too high (103.2°F)
+2025-04-28 18:38:02,623 - incubator - INFO - Status: Temp=97.9°F, Humidity=59.4%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:39:02,628 - incubator - INFO - Status: Temp=97.8°F, Humidity=58.3%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:39:22,629 - incubator - WARNING - WARNING: Temperature too high (102.8°F)
+2025-04-28 18:39:37,631 - incubator - WARNING - WARNING: Temperature too high (103.2°F)
+2025-04-28 18:39:37,916 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:39:37,916 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:39:50,842 - incubator - INFO - User 'admin' logged in successfully
+2025-04-28 18:40:02,632 - incubator - INFO - Status: Temp=98.3°F, Humidity=54.2%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:40:11,175 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:40:11,221 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:40:11,222 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:40:11,222 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:40:11,222 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:40:11,223 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:40:11,223 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:40:11,223 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:40:11,223 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:40:11,223 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:40:11,224 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:40:11,324 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:40:11,324 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:40:15,096 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:40:15,097 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:40:15,097 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:40:15,097 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:40:15,098 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:40:15,099 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:40:15,103 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:41:00,105 - incubator - INFO - Status: Temp=98.8°F, Humidity=56.2%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:42:00,107 - incubator - INFO - Status: Temp=97.2°F, Humidity=49.3%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:43:00,110 - incubator - INFO - Status: Temp=98.5°F, Humidity=62.2%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:43:18,543 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:43:18,554 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:43:18,554 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:43:18,555 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:43:18,555 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:43:18,555 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:43:18,555 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:43:18,555 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:43:18,555 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:43:18,555 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:43:18,555 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:43:18,658 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:43:18,658 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:43:18,911 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:43:18,912 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:43:18,912 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:43:18,912 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:43:18,914 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:43:18,914 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:43:18,918 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:43:23,918 - incubator - WARNING - WARNING: Humidity too high (78.5%)
+2025-04-28 18:43:35,961 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:43:36,049 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:43:36,049 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:43:36,049 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:43:36,050 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:43:36,050 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:43:36,050 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:43:36,050 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:43:36,050 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:43:36,050 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:43:36,050 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:43:36,151 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:43:36,151 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:43:36,341 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:43:36,341 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:43:36,341 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:43:36,341 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:43:36,342 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:43:36,342 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:43:36,345 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:44:01,347 - incubator - INFO - Status: Temp=97.3°F, Humidity=63.2%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:44:46,484 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:44:46,520 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:44:46,520 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:44:46,520 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:44:46,520 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:44:46,520 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:44:46,520 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:44:46,520 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:44:46,520 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:44:46,520 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:44:46,521 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:44:46,621 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:44:46,621 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:44:46,783 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:44:46,783 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:44:46,783 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:44:46,783 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:44:46,784 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:44:46,784 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:44:46,787 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:45:01,788 - incubator - INFO - Status: Temp=97.8°F, Humidity=62.5%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:45:26,791 - incubator - WARNING - WARNING: Temperature too low (93.7°F)
+2025-04-28 18:45:49,536 - incubator.relay - INFO - Relay channel 0 turned ON (Pin 17)
+2025-04-28 18:45:49,537 - incubator - INFO - Turned ON heater1
+2025-04-28 18:46:01,793 - incubator - INFO - Status: Temp=99.4°F, Humidity=54.0%, Heater1=ON, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:46:07,519 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:46:07,519 - incubator - INFO - Turned OFF heater1
+2025-04-28 18:46:33,344 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:46:33,394 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:46:33,394 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:46:33,394 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:46:33,394 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:46:33,394 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:46:33,395 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:46:33,395 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:46:33,395 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:46:33,395 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:46:33,395 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:46:33,495 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:46:33,496 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:46:33,910 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:46:33,911 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:46:33,911 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:46:33,911 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:46:33,912 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:46:33,912 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:46:33,915 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:46:48,918 - incubator - WARNING - WARNING: Humidity too high (75.0%)
+2025-04-28 18:47:03,919 - incubator - INFO - Status: Temp=98.4°F, Humidity=45.9%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:48:03,923 - incubator - INFO - Status: Temp=99.7°F, Humidity=46.5%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:48:13,923 - incubator - WARNING - WARNING: Humidity too high (79.2%)
+2025-04-28 18:48:43,924 - incubator - WARNING - WARNING: Temperature too high (103.4°F)
+2025-04-28 18:48:53,926 - incubator - WARNING - WARNING: Humidity too high (76.4%)
+2025-04-28 18:49:03,926 - incubator - INFO - Status: Temp=99.6°F, Humidity=55.0%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:49:48,929 - incubator - WARNING - WARNING: Temperature too high (104.0°F)
+2025-04-28 18:49:53,930 - incubator - WARNING - WARNING: Temperature too low (93.0°F)
+2025-04-28 18:50:03,930 - incubator - INFO - Status: Temp=99.5°F, Humidity=48.1%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:50:38,932 - incubator - WARNING - WARNING: Temperature too high (102.9°F)
+2025-04-28 18:51:03,504 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:51:03,604 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:51:03,604 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:51:03,604 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:51:03,604 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:51:03,604 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:51:03,605 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:51:03,605 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:51:03,605 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:51:03,605 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:51:03,605 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:51:03,705 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:51:03,706 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:51:03,911 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:51:03,911 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:51:03,911 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:51:03,911 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:51:03,913 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:51:03,913 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:51:03,916 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:51:03,916 - incubator - INFO - Status: Temp=97.7°F, Humidity=51.3%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:51:18,921 - incubator - WARNING - WARNING: Humidity too high (71.7%)
+2025-04-28 18:51:33,921 - incubator - WARNING - WARNING: Temperature too low (94.4°F)
+2025-04-28 18:52:03,928 - incubator - INFO - Status: Temp=99.1°F, Humidity=51.2%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:52:09,807 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 18:52:09,895 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 18:52:09,896 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 18:52:09,896 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 18:52:09,896 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 18:52:09,896 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 18:52:09,896 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 18:52:09,896 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 18:52:09,896 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 18:52:09,896 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 18:52:09,896 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 18:52:09,997 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 18:52:09,997 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 18:52:10,599 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 18:52:10,600 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 18:52:10,600 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 18:52:10,600 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 18:52:10,604 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 18:52:10,604 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 18:52:10,609 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 18:53:00,619 - incubator - INFO - Status: Temp=97.3°F, Humidity=57.3%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:54:00,632 - incubator - INFO - Status: Temp=98.0°F, Humidity=62.6%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:54:30,634 - incubator - WARNING - WARNING: Humidity too high (72.3%)
+2025-04-28 18:55:00,635 - incubator - INFO - Status: Temp=99.9°F, Humidity=55.2%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:56:00,637 - incubator - INFO - Status: Temp=99.1°F, Humidity=56.7%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:57:00,642 - incubator - INFO - Status: Temp=98.6°F, Humidity=63.4%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:57:05,642 - incubator - WARNING - WARNING: Temperature too high (103.2°F)
+2025-04-28 18:58:00,644 - incubator - INFO - Status: Temp=99.7°F, Humidity=55.3%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:58:15,645 - incubator - WARNING - WARNING: Temperature too high (104.0°F)
+2025-04-28 18:59:00,647 - incubator - INFO - Status: Temp=99.6°F, Humidity=49.3%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 18:59:10,647 - incubator - WARNING - WARNING: Humidity too high (71.1%)
+2025-04-28 19:00:00,649 - incubator - INFO - Status: Temp=97.5°F, Humidity=61.4%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 19:00:20,650 - incubator - WARNING - WARNING: Humidity too high (76.7%)
+2025-04-28 19:01:00,651 - incubator - INFO - Status: Temp=97.2°F, Humidity=52.2%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 19:01:30,564 - incubator - WARNING - Failed login attempt for user 'admin'
+2025-04-28 19:01:36,049 - incubator - INFO - User 'admin' logged in successfully
+2025-04-28 19:02:00,653 - incubator - INFO - Status: Temp=99.4°F, Humidity=50.9%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 19:02:54,253 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 19:02:54,329 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 19:02:54,329 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 19:02:54,329 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 19:02:54,329 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 19:02:54,329 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 19:02:54,329 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 19:02:54,329 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 19:02:54,329 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 19:02:54,330 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 19:02:54,330 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 19:02:54,430 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 19:02:54,430 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 19:02:54,590 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 19:02:54,590 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 19:02:54,590 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 19:02:54,590 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 19:02:54,591 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 19:02:54,591 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 19:02:54,594 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 19:02:54,595 - incubator - ERROR - Error in monitoring thread: name 'random' is not defined
+2025-04-28 19:02:59,595 - incubator - ERROR - Error in monitoring thread: name 'random' is not defined
+2025-04-28 19:03:04,595 - incubator - ERROR - Error in monitoring thread: name 'random' is not defined
+2025-04-28 19:03:09,596 - incubator - ERROR - Error in monitoring thread: name 'random' is not defined
+2025-04-28 19:03:14,637 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 19:03:14,723 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 19:03:14,723 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 19:03:14,723 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 19:03:14,723 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 19:03:14,723 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 19:03:14,723 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 19:03:14,723 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 19:03:14,724 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 19:03:14,724 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 19:03:14,724 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 19:03:14,824 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 19:03:14,824 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 19:03:15,008 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 19:03:15,008 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 19:03:15,008 - incubator.sensor - WARNING - Falling back to mock sensor data
+2025-04-28 19:03:15,008 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 19:03:15,009 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 19:03:15,009 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 19:03:15,012 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 19:03:15,012 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute '_read_mock_sensor'
+2025-04-28 19:03:20,013 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute '_read_mock_sensor'
+2025-04-28 19:03:25,013 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute '_read_mock_sensor'
+2025-04-28 19:03:30,014 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute '_read_mock_sensor'
+2025-04-28 19:03:35,056 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 19:03:35,131 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 19:03:35,131 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 19:03:35,131 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 19:03:35,131 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 19:03:35,131 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 19:03:35,131 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 19:03:35,132 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 19:03:35,132 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 19:03:35,132 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 19:03:35,132 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 19:03:35,232 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 19:03:35,233 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 19:03:35,394 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 19:03:35,394 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 19:03:35,394 - incubator.sensor - ERROR - Hardware access failed - cannot continue without sensor
+2025-04-28 19:03:35,394 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 19:03:35,395 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 19:03:35,395 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 19:03:35,398 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 19:03:35,399 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute 'use_mock'
+2025-04-28 19:03:40,399 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute 'use_mock'
+2025-04-28 19:03:45,400 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute 'use_mock'
+2025-04-28 19:03:50,400 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute 'use_mock'
+2025-04-28 19:03:52,438 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 19:03:52,519 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 19:03:52,519 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 19:03:52,519 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 19:03:52,520 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 19:03:52,520 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 19:03:52,520 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 19:03:52,520 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 19:03:52,520 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 19:03:52,520 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 19:03:52,520 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 19:03:52,621 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 19:03:52,621 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 19:03:52,805 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 19:03:52,805 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 19:03:52,806 - incubator.sensor - ERROR - Hardware access failed - cannot continue without sensor
+2025-04-28 19:03:52,806 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 19:03:52,806 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 19:03:52,807 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 19:03:52,809 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 19:03:52,809 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute 'use_mock'
+2025-04-28 19:03:57,810 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute 'use_mock'
+2025-04-28 19:04:02,810 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute 'use_mock'
+2025-04-28 19:04:07,810 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute 'use_mock'
+2025-04-28 19:04:12,811 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute 'use_mock'
+2025-04-28 19:04:17,811 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute 'use_mock'
+2025-04-28 19:04:22,812 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute 'use_mock'
+2025-04-28 19:04:27,812 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute 'use_mock'
+2025-04-28 19:04:32,812 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute 'use_mock'
+2025-04-28 19:04:37,813 - incubator - ERROR - Error in monitoring thread: 'SensorReader' object has no attribute 'use_mock'
+2025-04-28 19:04:41,907 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 19:04:41,985 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 19:04:41,985 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 19:04:41,985 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 19:04:41,986 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 19:04:41,986 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 19:04:41,986 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 19:04:41,986 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 19:04:41,986 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 19:04:41,986 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 19:04:41,986 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 19:04:42,086 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 19:04:42,087 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 19:04:42,272 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 19:04:42,272 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 19:04:42,272 - incubator.sensor - ERROR - Hardware access failed - cannot continue without sensor
+2025-04-28 19:04:42,273 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 19:04:42,273 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 19:04:42,274 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 19:04:42,280 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 19:04:42,280 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:04:42,280 - incubator - ERROR - Error in monitoring thread: Sensor not initialized or not connected
+2025-04-28 19:04:47,280 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:04:47,280 - incubator - ERROR - Error in monitoring thread: Sensor not initialized or not connected
+2025-04-28 19:04:52,281 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:04:52,281 - incubator - ERROR - Error in monitoring thread: Sensor not initialized or not connected
+2025-04-28 19:04:57,281 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:04:57,281 - incubator - ERROR - Error in monitoring thread: Sensor not initialized or not connected
+2025-04-28 19:05:02,281 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:05:02,282 - incubator - ERROR - Error in monitoring thread: Sensor not initialized or not connected
+2025-04-28 19:05:07,282 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:05:07,283 - incubator - ERROR - Error in monitoring thread: Sensor not initialized or not connected
+2025-04-28 19:05:08,343 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 19:05:08,437 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 19:05:08,437 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 19:05:08,437 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 19:05:08,437 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 19:05:08,437 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 19:05:08,437 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 19:05:08,437 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 19:05:08,437 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 19:05:08,437 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 19:05:08,437 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 19:05:08,538 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 19:05:08,538 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 19:05:08,848 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 19:05:08,849 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 19:05:08,849 - incubator.sensor - ERROR - Hardware access failed - cannot continue without sensor
+2025-04-28 19:05:08,849 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 19:05:08,851 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 19:05:08,851 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 19:05:08,885 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 19:05:08,886 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:05:08,886 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:05:08,886 - incubator - WARNING - WARNING: Temperature too low (0.0°F)
+2025-04-28 19:05:13,886 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:05:13,886 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:05:13,887 - incubator - WARNING - WARNING: Temperature too low (0.0°F)
+2025-04-28 19:05:18,887 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:05:18,887 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:05:18,887 - incubator - WARNING - WARNING: Temperature too low (0.0°F)
+2025-04-28 19:05:19,922 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 19:05:19,967 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 19:05:19,968 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 19:05:19,968 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 19:05:19,968 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 19:05:19,968 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 19:05:19,968 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 19:05:19,968 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 19:05:19,968 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 19:05:19,968 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 19:05:19,968 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 19:05:20,069 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 19:05:20,069 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 19:05:20,256 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 19:05:20,257 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 19:05:20,257 - incubator.sensor - ERROR - Hardware access failed - cannot continue without sensor
+2025-04-28 19:05:20,257 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 19:05:20,259 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 19:05:20,260 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 19:05:20,269 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 19:05:20,272 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:05:20,272 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:05:20,273 - incubator - WARNING - WARNING: Temperature too low (0.0°F)
+2025-04-28 19:05:25,273 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:05:25,274 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:05:25,274 - incubator - WARNING - WARNING: Temperature too low (0.0°F)
+2025-04-28 19:05:30,274 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:05:30,275 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:05:30,275 - incubator - WARNING - WARNING: Temperature too low (0.0°F)
+2025-04-28 19:05:35,275 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:05:35,275 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:05:35,275 - incubator - WARNING - WARNING: Temperature too low (0.0°F)
+2025-04-28 19:05:39,317 - incubator - INFO - Cleaning up hardware resources...
+2025-04-28 19:05:39,395 - incubator.emergency - INFO - Emergency handler cleanup completed
+2025-04-28 19:05:39,395 - incubator.relay - INFO - Relay channel 0 turned OFF (Pin 17)
+2025-04-28 19:05:39,395 - incubator.relay - INFO - Relay channel 1 turned OFF (Pin 18)
+2025-04-28 19:05:39,395 - incubator.relay - INFO - Relay channel 2 turned OFF (Pin 27)
+2025-04-28 19:05:39,396 - incubator.relay - INFO - Relay channel 3 turned OFF (Pin 22)
+2025-04-28 19:05:39,396 - incubator.relay - INFO - Relay channel 4 turned OFF (Pin 23)
+2025-04-28 19:05:39,396 - incubator.relay - INFO - Relay channel 5 turned OFF (Pin 24)
+2025-04-28 19:05:39,396 - incubator.relay - INFO - Relay channel 6 turned OFF (Pin 25)
+2025-04-28 19:05:39,396 - incubator.relay - INFO - Relay channel 7 turned OFF (Pin 4)
+2025-04-28 19:05:39,396 - incubator.relay - INFO - All relays turned OFF
+2025-04-28 19:05:39,497 - incubator.relay - INFO - GPIO cleanup completed
+2025-04-28 19:05:39,497 - incubator - INFO - Hardware resources cleaned up
+2025-04-28 19:05:39,666 - incubator.relay - INFO - Relay controller initialized with all relays OFF
+2025-04-28 19:05:39,667 - incubator.sensor - ERROR - Error initializing SHT30 sensor: [Errno 2] No such file or directory: '/dev/i2c-1'
+2025-04-28 19:05:39,667 - incubator.sensor - ERROR - Hardware access failed - cannot continue without sensor
+2025-04-28 19:05:39,667 - incubator.emergency - INFO - Emergency handler initialized
+2025-04-28 19:05:39,670 - incubator.emergency - INFO - Overheat monitoring set up on GPIO pin 26
+2025-04-28 19:05:39,670 - incubator - INFO - Hardware controllers initialized successfully
+2025-04-28 19:05:39,674 - incubator - INFO - Starting sensor monitoring thread
+2025-04-28 19:05:39,674 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:05:39,676 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:05:44,677 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:05:44,677 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:05:49,677 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:05:49,678 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:05:54,678 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:05:54,678 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:05:59,678 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:05:59,679 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:06:04,680 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:06:04,680 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:06:04,680 - incubator - INFO - Status: Temp=0.0°F, Humidity=0.0%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 19:06:09,683 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:06:09,684 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:06:14,684 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:06:14,684 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:06:19,684 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:06:19,685 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:06:24,685 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:06:24,685 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:06:29,685 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:06:29,685 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:06:34,686 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:06:34,686 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:06:39,686 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:06:39,686 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:06:44,687 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:06:44,687 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:06:49,687 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:06:49,687 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:06:54,688 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:06:54,688 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:06:59,688 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:06:59,688 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:07:04,688 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:07:04,689 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:07:04,689 - incubator - INFO - Status: Temp=0.0°F, Humidity=0.0%, Heater1=OFF, Heater2=OFF, Humidifier=OFF
+2025-04-28 19:07:09,689 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:07:09,690 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:07:14,690 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:07:14,690 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:07:19,690 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:07:19,691 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:07:24,691 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:07:24,691 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:07:29,691 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:07:29,692 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:07:34,692 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:07:34,692 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
+2025-04-28 19:07:39,692 - incubator.sensor - ERROR - Cannot read from uninitialized sensor
+2025-04-28 19:07:39,693 - incubator - ERROR - Sensor error: Sensor not initialized or not connected
